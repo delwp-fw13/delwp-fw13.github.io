@@ -784,11 +784,11 @@
             if (period === 'period1') {
                 // 1-3 Day Period responses
                 if (periodAnswers.q1 === 'yes') {
-                    response = 'Ensure enhanced resourcing on the day before the Catastrophic day.\n \n Full FBAn resourcing on Catastrophic day including: \n 0700 Day Shift \n 1200 Swing Shift \n 1900 Night Shift \n Brief Room Manager and SRC\nEscalate to SRC or Chiefs if Predictive Services cannot meet expected resourcing\nConsider additional resourcing if Public Facing Predictions are required';
+                    response = 'Ensure enhanced resourcing on the day before the Catastrophic day.\n \n Full FBAn resourcing on Catastrophic day including: \n 0700 Day Shift \n 1200 Swing Shift \n 1900 Night Shift \n \n Brief Room Manager and SRC\nEscalate to SRC or Chiefs if Predictive Services cannot meet expected resourcing \n \n Obtain additional resourcing if Public Facing Predictions are required';
                     responseClass = 'response-catastrophic';
                 }
                 else if (periodAnswers.q2 === 'yes') {
-                    response = 'Ensure enhanced resourcing including Swing Shifts \n \n Defer non Critical products\nBrief Room Manager and SRC\nEscalate to SRC or Chiefs if Predictive Services cannot meet expected resourcing\nConsider additional resourcing if Public Facing Predictions are required';
+                    response = 'Ensure enhanced resourcing including Swing Shifts \n \n Defer non Critical products\nBrief Room Manager and SRC\nEscalate to SRC or Chiefs if Predictive Services cannot meet expected resourcing \n \n Obtain additional resourcing if Public Facing Predictions are required';
                     responseClass = 'response-extreme-2';
                 }
                 else if (periodAnswers.q3 === 'yes') {
@@ -796,25 +796,25 @@
                     responseClass = 'response-extreme-1';
                 }
                 else if (periodAnswers.q4 === 'yes' || periodAnswers.q5 === 'yes') {
-                    response = 'Assess need for enhanced resourcing\nPrioritise active fires and risk scenarios\nBrief Room Manager and SRC \n \n Document observations and risk factors in line with Advisory Bulletin 1 \n Assess current and expected workload';
+                    response = 'Assess need for enhanced resourcing \n \n Prioritise active fires and risk scenarios\nBrief Room Manager and SRC \n Document observations and risk factors in line with Advisory Bulletin 1 \n Assess current and expected workload';
                     responseClass = 'response-enhanced';
                 }
                 else if (periodAnswers.q6 === 'yes') {
-                    response = 'During daily activation period there must be one officer or member AND one supervised member to ensure continuous FBAn training and development - Even on Tier 1 days \n \n Prioritise active fires and risk scenarios \n Brief Room Manager and SRCn\Assess current and expected workload';
+                    response = 'During daily activation period there must be one officer or member AND one supervised member to ensure continuous FBAn training and development - Even on Tier 1 days \n Prioritise active fires and risk scenarios \n Brief Room Manager and SRCn\Assess current and expected workload';
                     responseClass = 'response-normal';
                 }
                 else {
-                    response = 'During Shoulder Season work with the Predictive Service Unit to assess upcoming risk';
+                    response = 'During Shoulder Season work with the Predictive Service Unit and State Agency Commanders to assess upcoming risk';
                     responseClass = 'response-minimum';
                 }
             } else {
                 // 4-6 Day Period responses
                 if (periodAnswers.q1 === 'yes') {
-                    response = 'Seek further details and notify SCC room manager and SRC\nIf confident of catastrophic FBI consider early activation of additional resources\nPrepare and position roster for sustained coverage\nPrepare and support briefings as required\nDefer non critical predictive products\nSupport Regional FBAn activations';
+                    response = 'Seek further details and notify SCC room manager and SRC\n \n If confident of catastrophic FBI consider early activation of additional resources \n \n Prepare and position roster for sustained coverage\nPrepare and support briefings as required\nDefer non critical predictive products\nSupport Regional FBAn activations';
                     responseClass = 'response-catastrophic';
                 }
                 else if (periodAnswers.q2 === 'yes') {
-                    response = 'Seek further details and notify SCC room manager and SRC\nPrepare and support briefings as required\nDefer non critical predictive products\nSupport Regional FBAn activations\nActivate FBAn to assist with preparation work';
+                    response = 'Seek further details and notify SCC room manager and SRC \n Activate FBAn to assist with preparation work \n Prepare and support briefings as required\nDefer non critical predictive products\nSupport Regional FBAn activations';
                     responseClass = 'response-extreme-2';
                 }
                 else if (periodAnswers.q3 === 'yes') {
@@ -830,7 +830,7 @@
                     responseClass = 'response-normal';
                 }
                 else {
-                    response = 'During Shoulder Season work with the Predictive Service Unit to assess upcoming risk';
+                    response = 'During Shoulder Season work with the Predictive Service Unit and State Agency Commanders to assess upcoming risk';
                     responseClass = 'response-minimum';
                 }
             }
